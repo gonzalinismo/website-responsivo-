@@ -1,0 +1,56 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ 
+body{
+	background-image: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url(fondo.jpg);
+	height: 100vh;
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: black;
+}
+
+.header{
+	height: 100px;
+}
+
+.navbar-style{
+	box-shadow: 0 5px 10px #efefef;
+	padding-top: 10px;
+	font-family: "Roboto", sans-serif;
+	font-size: 15px;
+	text-decoration: none;
+	border-radius: 0;
+}
+
+.logo{
+	height: 60px;
+}
+.icon-bar{
+	background: darkorange; 
+}
+
+li a{
+	color: white;
+
+}
+
+.tab-content{
+	width: 800px ;
+	max-width: 70%;
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+	margin: 30px auto;
+	
+}
+
+.tab-content div{
+	margin: 15px auto;
+	font-family: "Roboto", sans-serif;
+	color: white;
+	max-width: 90%;
+}
+ .tab-content div p{
+ 	text-align: justify;
+ }
