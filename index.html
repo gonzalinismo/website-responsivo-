@@ -4,20 +4,47 @@
 	<title> Gonzalo Valverde</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width-devide-width, initial-scale=1">
+	<!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- Material icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">            
+	<script type="text/javascript" src="main.js"></script>	
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<!-- jQuery library -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script type="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-	<script type="text/javascript" src=main.js"></script>
-	<!-- Latest compiled JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 </head>	
 <body>
-	<header class="header">
-		<nav class="navbar navbar-style ">
+	
+	<div class="navbar-fixed">		
+		<nav>
+		    <div class="nav-wrapper z-depth-2 ">
+		    		<a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+		    	
+				<img class="logo float-left " src="logo.png">		    		
+		    	
+				<ul class="right  hide-on-med-and-down">	      	
+							<li class="active"><a data-toggle="pill" href="#home">HOME</a></li>
+							<li><a data-toggle="pill" href="#service">SERVICIOS</a></li>
+							<li><a data-toggle="pill" href="#about">SOBRE NOSOTROS</a></li>
+							<li><a data-toggle="pill" href="#contact">CONTACTO</a></li>
+							<li><a data-toggle="pill" href="">NEWS</a></li>
+							<li><a data-toggle="pill" href="">FAQ</a></li>
+				</ul>
+					
+		    </div>
+		</nav>	
+	</div>
+	<!-- SIDENAV -->
+	<ul class="sidenav" id="slide-out">
+	    <li class="active"><a data-toggle="pill" href="#home">HOME</a></li>
+		<li><a data-toggle="pill" href="#service">SERVICIOS</a></li>
+		<li><a data-toggle="pill" href="#about">SOBRE NOSOTROS</a></li>
+		<li><a data-toggle="pill" href="#contact">CONTACTO</a></li>
+		<li><a data-toggle="pill" href="">NEWS</a></li>
+		<li><a data-toggle="pill" href="">FAQ</a></li>
+  	</ul>			
+		<!-- <nav class="navbar navbar-style ">
 			<div class="container">
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#micon">
@@ -30,18 +57,9 @@
 					</div>
 					</div>
 						<div class="collapse navbar-collapse" id="micon">
-						<ul class="nav navbar-nav navbar-right">
-							<li class="active"><a data-toggle="pill" href="#home">HOME</a></li>
-							<li><a data-toggle="pill" href="#service">SERVICIOS</a></li>
-							<li><a data-toggle="pill" href="#about">SOBRE NOSOTROS</a></li>
-							<li><a data-toggle="pill" href="#contact">CONTACTO</a></li>
-							<li><a data-toggle="pill" href="">NEWS</a></li>
-							<li><a data-toggle="pill" href="">FAQ</a></li>
-
-						</ul>
 
 					</div>
-			</div>
+			</div> -->
 		</nav>
 	</header>
 	<div class="tab-content">
@@ -74,4 +92,8 @@
 		</div>
 	</div>
 </body>
+<script type="text/javascript">
+	
+  M.AutoInit();
+</script>
 </html>

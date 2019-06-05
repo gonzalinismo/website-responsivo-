@@ -4,25 +4,24 @@
 }
  
 body{
-	background-image: #121212;
-	height: 100vh;
-	background-size:cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-color: black;
+	background-color: #10201a !important;	
 }
 
 .header{
-	height: 100px;
 }
 
-.navbar-style{
-	box-shadow: 0 5px 10px #efefef;
-	padding-top: 10px;
+.nav-wrapper{
+	background-color: #121212;
+	height: 100px;	
 	font-family: "Roboto", sans-serif;
 	font-size: 15px;
-	text-decoration: none;
-	border-radius: 0;
+	
+}
+.sidenav{
+	background-color: #121212;
+}
+.sidenav li>a {
+	color: #FFFFFF;	
 }
 
 .logo{
