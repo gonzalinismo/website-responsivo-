@@ -27,29 +27,38 @@ body{
 .logo{
 	height: 60px;
 }
-.icon-bar{
-	background: darkorange; 
+.material-icons, .card-action a{
+	color: #00dc90 !important;		
 }
 
 li a{
 	color: white;
-
 }
 
-.tab-content{
-	width: 800px ;
-	max-width: 70%;
+.tab-pane{	
 	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
-	margin: 30px auto;
-	
+	margin: auto auto;
+
 }
 
-.tab-content div{
+.tab-pane div{
 	margin: 15px auto;
 	font-family: "Roboto", sans-serif;
 	color: white;
-	max-width: 90%;
+	
 }
- .tab-content div p{
+ .tab-pane div p{
  	text-align: justify;
  }
+
+.card-content p{
+	color: black !important;
+}
+
+.container{
+	width: 90%;
+}
+
+.tab-pane p, .tab-pane h1{
+	color: white;
+}
