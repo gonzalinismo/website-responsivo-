@@ -6,15 +6,15 @@
 body{
 	background-color: #10201a !important;	
 }
-
-.header{
+.main{
+	margin-top: 15px;
 }
-
 .nav-wrapper{
 	background-color: #121212;
 	height: 100px;	
 	font-family: "Roboto", sans-serif;
 	font-size: 15px;
+	padding-bottom: 10px;
 	
 }
 .sidenav{
@@ -42,9 +42,11 @@ li a{
 }
 
 .tab-pane div{
+	padding: 15px;
 	margin: 15px auto;
 	font-family: "Roboto", sans-serif;
 	color: white;
+	margin-top: 10px;
 	
 }
  .tab-pane div p{
@@ -61,4 +63,9 @@ li a{
 
 .tab-pane p, .tab-pane h1{
 	color: white;
+}
+
+.responsive-img{
+	margin-top: 15px;
+	margin-bottom: 15px;
 }
