@@ -20,7 +20,7 @@ body{
 .sidenav{
 	background-color: #121212;
 }
-.sidenav li>a {
+.sidenav li>a, h3, h2 {
 	color: #FFFFFF;	
 }
 
