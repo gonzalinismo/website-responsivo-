@@ -1,4 +1,4 @@
-<html lang="en">
+﻿<html lang="en">
 <head>
 	<title> Gonzalo Valverde</title>
 	<meta charset="utf-8">
@@ -16,47 +16,67 @@
 
 </head>	
 <body>
-	
-	<div class="navbar-fixed">		
-		<nav>
-		    <div class="nav-wrapper z-depth-2 ">
-		    		<a href="#" data-target="slide-out" class="sidenav-trigger right"><i class="material-icons">menu</i></a>
-		    	
-				<img class="logo float-left " src="logo.png">		    		
-		    	
-							<ul class="right  hide-on-med-and-down">	      	
-								<li class=""><a data-toggle="pill" href="index.html">HOME</a></li>
-								<li><a data-toggle="pill" href="about.html">SOBRE MI</a></li>
-								<li><a data-toggle="pill" href="formacion.html">FORMACION</a></li>
-								<li><a data-toggle="pill" href="Proyectos.html">PROYECTOS</a></li>
-								<li><a data-toggle="pill" href="contacto.html">CONTACTO</a></li>
-							</ul>
-								
-					    </div>
-					</nav>	
-				</div>
-				<!-- SIDENAV -->
-				<ul class="sidenav" id="slide-out">
-				    <li class=""><a data-toggle="pill" href="index.html">HOME</a></li>
-					<li><a data-toggle="pill" href="about.html">SOBRE MI</a></li>
-					<li><a data-toggle="pill" href="formacion.html">FORMACION</a></li>
-					<li><a data-toggle="pill" href="Proyectos.html">PROYECTOS</a></li>
-					<li><a data-toggle="pill" href="contacto.html">CONTACTO</a></li>
-			  	</ul>
-	
-	<div class="main">
-		<div id="contact" class="container tab-pane  row">
-			<h2 class="col l12 m12 s12"> Home </h2><br>
-			<div class="container">
-				<p class="col l6"><br>Bienvenido a la version digital de mi Curriculum, en estas secciones voy a tratar de contar un poco sobre quien soy, lo que me gusta hacer y las cosas que he hecho en el pasado. <br>
-				Ante cualquier duda, no dudes en contactarme!</p>
-				<img src="otros.jpg" class="col l6 responsive-img">
-				<p class="col l12"><br><br><br><br><br><br></p>
-				
-			</div>
-		</div>
-	</div>
-</body><script type="text/javascript">
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper z-depth-2 ">
+                <a href="#" data-target="slide-out" class="sidenav-trigger right"><i class="material-icons">menu</i></a>
+                <img class="logo float-left " src="logo.png">
+                <ul class="right  hide-on-med-and-down">
+                    <li class=""><a data-toggle="pill" href="index.html">HOME</a></li>
+                    <li><a data-toggle="pill" href="about.html">ABOUT ME</a></li>
+                    <li><a data-toggle="pill" href="formacion.html">EDUCATION</a></li>
+                    <li><a data-toggle="pill" href="Proyectos.html">PROJECTS</a></li>
+                    <li><a data-toggle="pill" href="contacto.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- SIDENAV -->
+    <ul class="sidenav" id="slide-out">
+        <li class=""><a data-toggle="pill" href="index.html">HOME</a></li>
+        <li><a data-toggle="pill" href="about.html">ABOUT ME</a></li>
+        <li><a data-toggle="pill" href="formacion.html">EDUCATION</a></li>
+        <li><a data-toggle="pill" href="Proyectos.html">PROJECTS</a></li>
+        <li><a data-toggle="pill" href="contacto.html">CONTACT</a></li>
+    </ul>
+    <!--                        <MAIN>      -->
+    <main>
+        <div class="main">
+            <div id="contact" class="container tab-pane  row">
+                <h4 class="col l12 m12 s12"> Home </h4><br>
+                    <div class="container">
+                        <h5>Hi there!</h5>
+                        Welcome to my personal page, within these sections you cand find out a little bit about me and the things I´ve worked on. <br />
+                        However, just to brief you out real quick, I'm a young argentinian Programmer analyst whose passions are coding, music, cats and coffee.
+                        <!--<img src="otros.jpg" class="center col l10 responsive-img">-->
+                        In the past I've worked with many techonologies, always trying to pick the right tool for what the project needs but my favourite ones are: <br />
+                    <div class="col l12" id="frontend">
+                        <b>Front end: </b><br />
+                        <img class="col l4 m4 s4 svgIndex" src="html5.svg" alt="html five" />
+                        <img class="col l4 m4 s4 svgIndex" src="css3.svg" alt="css three" />
+                        <img class="col l4 m4 s4 svgIndex" src="javascript.svg" alt="javascript" />
+                    </div> <br />
+                    <div  class="col l12" id="back end">
+                        <b>Back end: </b><br />
+                        <img class="center col l4 m8 s8 pngIndex" src="django.png" alt="django" />
+                        <img class="col l4 m8 s8 pngIndex" src="PHP_Logo.png" alt="p h p" />
+                        <img class="col l4 m8 s8 pngIndex" src="csharp.png" alt="c sharp" />
+                    </div>      
+                    <div id="general purpose">
+                        <b>Generak Purpose: </b><br />
+                        <img class="col l4 m8 s8 pngIndex" src="java1.jpg" alt="java" />
+                        <img class="col l4 m8 s8 pngIndex" src="python.jpg" alt="c python" />
+
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- fin MAIN                        -->
+</body>
+
+<script type="text/javascript">
 	
   M.AutoInit();
 </script>
